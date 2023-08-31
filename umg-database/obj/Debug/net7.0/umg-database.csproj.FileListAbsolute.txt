@@ -1,0 +1,30 @@
+C:\Users\Lenovo\Documents\umg-safety-standars\umg-database\bin\Debug\net7.0\umg-database.deps.json
+C:\Users\Lenovo\Documents\umg-safety-standars\umg-database\bin\Debug\net7.0\umg-database.dll
+C:\Users\Lenovo\Documents\umg-safety-standars\umg-database\bin\Debug\net7.0\umg-database.pdb
+C:\Users\Lenovo\Documents\umg-safety-standars\umg-database\obj\Debug\net7.0\umg-database.csproj.AssemblyReference.cache
+C:\Users\Lenovo\Documents\umg-safety-standars\umg-database\obj\Debug\net7.0\umg-database.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lenovo\Documents\umg-safety-standars\umg-database\obj\Debug\net7.0\umg-database.AssemblyInfoInputs.cache
+C:\Users\Lenovo\Documents\umg-safety-standars\umg-database\obj\Debug\net7.0\umg-database.AssemblyInfo.cs
+C:\Users\Lenovo\Documents\umg-safety-standars\umg-database\obj\Debug\net7.0\umg-database.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\Documents\umg-safety-standars\umg-database\obj\Debug\net7.0\umg-database.dll
+C:\Users\Lenovo\Documents\umg-safety-standars\umg-database\obj\Debug\net7.0\refint\umg-database.dll
+C:\Users\Lenovo\Documents\umg-safety-standars\umg-database\obj\Debug\net7.0\umg-database.pdb
+C:\Users\Lenovo\Documents\umg-safety-standars\umg-database\obj\Debug\net7.0\ref\umg-database.dll
+C:\Users\Lenovo\Documents\umg-safety-standars\umg-database\obj\Debug\net7.0\umg_database.Common.Resource.DatabaseException.resources
+C:\Users\Lenovo\Documents\umg-safety-standars\umg-database\obj\Debug\net7.0\umg_database.Common.Resource.HttpException.resources
+C:\Users\Lenovo\Documents\umg-safety-standars\umg-database\obj\Debug\net7.0\umg-database.csproj.GenerateResource.cache
+C:\Users\User\Documents\Luis Gomez\Universidad\Decimo Semestre\Auditorio y Seguridad de Sistemas\umg-safety-standars\umg-database\bin\Debug\net7.0\umg-database.deps.json
+C:\Users\User\Documents\Luis Gomez\Universidad\Decimo Semestre\Auditorio y Seguridad de Sistemas\umg-safety-standars\umg-database\bin\Debug\net7.0\umg-database.dll
+C:\Users\User\Documents\Luis Gomez\Universidad\Decimo Semestre\Auditorio y Seguridad de Sistemas\umg-safety-standars\umg-database\bin\Debug\net7.0\umg-database.pdb
+C:\Users\User\Documents\Luis Gomez\Universidad\Decimo Semestre\Auditorio y Seguridad de Sistemas\umg-safety-standars\umg-database\obj\Debug\net7.0\umg-database.csproj.AssemblyReference.cache
+C:\Users\User\Documents\Luis Gomez\Universidad\Decimo Semestre\Auditorio y Seguridad de Sistemas\umg-safety-standars\umg-database\obj\Debug\net7.0\umg_database.Common.Resource.DatabaseException.resources
+C:\Users\User\Documents\Luis Gomez\Universidad\Decimo Semestre\Auditorio y Seguridad de Sistemas\umg-safety-standars\umg-database\obj\Debug\net7.0\umg_database.Common.Resource.HttpException.resources
+C:\Users\User\Documents\Luis Gomez\Universidad\Decimo Semestre\Auditorio y Seguridad de Sistemas\umg-safety-standars\umg-database\obj\Debug\net7.0\umg-database.csproj.GenerateResource.cache
+C:\Users\User\Documents\Luis Gomez\Universidad\Decimo Semestre\Auditorio y Seguridad de Sistemas\umg-safety-standars\umg-database\obj\Debug\net7.0\umg-database.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Documents\Luis Gomez\Universidad\Decimo Semestre\Auditorio y Seguridad de Sistemas\umg-safety-standars\umg-database\obj\Debug\net7.0\umg-database.AssemblyInfoInputs.cache
+C:\Users\User\Documents\Luis Gomez\Universidad\Decimo Semestre\Auditorio y Seguridad de Sistemas\umg-safety-standars\umg-database\obj\Debug\net7.0\umg-database.AssemblyInfo.cs
+C:\Users\User\Documents\Luis Gomez\Universidad\Decimo Semestre\Auditorio y Seguridad de Sistemas\umg-safety-standars\umg-database\obj\Debug\net7.0\umg-database.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\Luis Gomez\Universidad\Decimo Semestre\Auditorio y Seguridad de Sistemas\umg-safety-standars\umg-database\obj\Debug\net7.0\umg-database.dll
+C:\Users\User\Documents\Luis Gomez\Universidad\Decimo Semestre\Auditorio y Seguridad de Sistemas\umg-safety-standars\umg-database\obj\Debug\net7.0\refint\umg-database.dll
+C:\Users\User\Documents\Luis Gomez\Universidad\Decimo Semestre\Auditorio y Seguridad de Sistemas\umg-safety-standars\umg-database\obj\Debug\net7.0\umg-database.pdb
+C:\Users\User\Documents\Luis Gomez\Universidad\Decimo Semestre\Auditorio y Seguridad de Sistemas\umg-safety-standars\umg-database\obj\Debug\net7.0\ref\umg-database.dll
