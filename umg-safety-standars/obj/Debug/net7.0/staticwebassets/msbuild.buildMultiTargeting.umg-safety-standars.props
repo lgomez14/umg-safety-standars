@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\umg-safety-standars.props" />
+</Project>
