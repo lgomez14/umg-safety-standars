@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*COLOR GLOBAL*/
+.fondo-global {
+    background-color: #6749cb;
+}
+
+.fondo-global:hover {
+    background-color: #6749cb;
+}
+
+.color-texto-global {
+    color: #6788ff;
+}
+
+.fondo-gris-oscuro-global {
+    background-color: #3d3d3d;
+}
+
+.color-texto-gris-oscuro-global {
+    color: #3d3d3d;
+}
+
+body {
+    min-height: 100vh;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container-fluid .row .login-card {
+    min-height: 100vh;
+    padding: 170px 190px 0px 190px;
+}
+
+.container-fluid .row .background-login-card {
+    min-height: 100vh;
+    min-width: 100%;
+    background-image: url(../img/mountains-rocks-night-starry-sky-scenery-illustration-macos-6016x6016-3810.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin-right: -12px;
+}
+
+.container-fluid .row .text-background-login-card {
+    padding: 320px 50px 0px 17%;
+}
+
+.container-fluid .row .text-background-login-card h1 {
+    font-size: 55px;
+}
+
+.container-fluid .row .text-background-login-card p {
+    font-size: 15px;
+}
+
+@media (max-width: 1376px) {
+    .container-fluid .row .login-card {
+        min-height: 100vh;
+        padding: 50px 80px 0px 80px;
+    }
+}
+
+@media (max-width: 991px) {
+    .container-fluid .row .background-login-card {
+        display: none;
+    }
+
+    .container-fluid .row .login-card {
+        min-height: 100vh;
+        padding: 20px 20px 0px 20px;
+    }
+}
