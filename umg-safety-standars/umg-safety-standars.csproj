@@ -24,13 +24,4 @@
   <ItemGroup>
     <ProjectReference Include="..\umg-database\umg-database.csproj" />
   </ItemGroup>
-  <SonarQubeSetting Include="sonar.coverage.exclusions">
-    <Value>
-      Dir11\Dir12\Dir13\**,
-      Dir21\Dir22\**,
-      Dir31\Dir32\Dir33\**,
-      **\SomeName1*.cs,
-      **\*Somename2.cs
-    </Value>
-  </SonarQubeSetting>
 </Project>

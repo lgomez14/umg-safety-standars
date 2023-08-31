@@ -2,9 +2,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Moq;
 using umg_database.Common.Interfaces;
-using umg_database.Sources.Jwt.Models;
 using umg_database.Sources.Session.Entities;
-using umg_safety_standars.Common.Resources.Types;
 using umg_safety_standars.Source.Jwt.Models;
 using umg_safety_standars.Source.Jwt.Services;
 

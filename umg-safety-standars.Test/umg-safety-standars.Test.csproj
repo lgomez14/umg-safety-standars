@@ -25,7 +25,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\umg-database\umg-database.csproj" />
     <ProjectReference Include="..\umg-safety-standars\umg-safety-standars.csproj" />
   </ItemGroup>
 
