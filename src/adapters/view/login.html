@@ -13,6 +13,9 @@
     <!-- HOJA DE ESTILOS PROPIA -->
     <link rel="stylesheet" href="../../../assets/css/login.css">
 
+    <!-- Include SweetAlert2 CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11.6.0/dist/sweetalert2.min.css">
+
     <!-- ICONOS -->
     <script src="https://kit.fontawesome.com/be221c52b4.js" crossorigin="anonymous"></script>
 
@@ -26,7 +29,7 @@
 
 </head>
 
-<body>
+<body oncontextmenu="return false">
 
     <div class="container-fluid">
         <div class="row">
@@ -39,30 +42,25 @@
                     <form action="">
                         <form>
                             <div class="mb-4 mt-5">
-                                <label class="form-label text-muted">Correo Electrónico</label>
-                                <input type="email" class="form-control text-muted" id="exampleInputEmail1"
-                                    placeholder="Ingresa el texto aquí">
+                                <input type="text" class="form-control text-muted" id="nit" placeholder="NIT *"
+                                    maxlength="20">
                             </div>
                             <div class="mb-4">
-                                <label class="form-label text-muted">Contraseña</label>
-                                <input type="password" class="form-control text-muted" id="exampleInputEmail1"
-                                    placeholder="Ingresa el texto aquí">
+                                <input type="password" class="form-control text-muted" id="psw"
+                                    placeholder="Contraseña *">
                                 <div id="emailHelp" class="form-text">Por tu seguridad, nunca compartas tu contraseña
                                     con nadie.</div>
                             </div>
                             <div class="row mb-5">
-                                <div class="col-md-12 col-lg-6">
-                                    <a href="../view/u/products.html" class="btn w-100 fondo-global py-2 text-white mb-2">Inicia sesión
-                                        vencida</a>
-                                </div>
-                                <div class="col-md-12 col-lg-6">
-                                    <a href="../view/u/products.html" class="btn w-100 fondo-global py-2 text-white mb-2">Inicia nueva
+                                <div class="col-md-12 col-lg-12">
+                                    <button type="button" class="btn btn-secondary w-100 fondo-global py-2 text-white mb-2"
+                                        onclick="loginNewSupplier()">Inicia
                                         sesión</a>
                                 </div>
                             </div>
                         </form>
                     </form>
-                    <p class="text-muted text-center mb-4">¿No tienes una cuenta?, creala <a href="./signup.html"
+                    <p class="text-muted text-center mb-4">¿No tienes una cuenta?, creala <a href="./signup"
                             class="fw-bold text-dark">presionando aquí</a></p>
                 </div>
             </div>
@@ -83,6 +81,10 @@
         crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.7.0.min.js"
         integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+    <!-- Include SweetAlert2 JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.6.0/dist/sweetalert2.min.js"></script>
+    <script src="../../core/auth/authUseCase.min.js"></script>
+    <script src="../../adapters/api/authApi.min.js"></script>
 </body>
 
 </html>

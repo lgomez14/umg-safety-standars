@@ -9,9 +9,24 @@ const sessionValidate = () => {
         sessionStorage.removeItem('supplierTknSession');
         sessionStorage.removeItem('key');
         localStorage.removeItem('supplierData');
+        window.location.href = '../../view/unauthorized';
     }
     else {
-        window.location.href = '../../adapters/view/u/products';
+        console.log('sesion activa');
     }
 }
 sessionValidate();
+
+
+//EXECUTE VALIDATION SESSION VALIDATE LOOP 1 MINUTE
+setInterval(sessionValidate, 10000);
+
+
+
+//CLOSE SESSION
+const closeSupplierSession = () => {
+    sessionStorage.removeItem('supplierTknSession');
+    sessionStorage.removeItem('key');
+    localStorage.removeItem('supplierData');
+    window.location.href = '../../../../index';
+}

@@ -19,6 +19,9 @@
     <!-- ICONO EN EL TAB -->
     <link rel="icon" href="../../../assets/img/umg.png">
 
+    <!-- Include SweetAlert2 CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11.6.0/dist/sweetalert2.min.css">
+
     <!-- LINK DE GOOGLE FONT -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -26,7 +29,7 @@
 
 </head>
 
-<body>
+<body oncontextmenu="return false">
 
     <div class="container-fluid">
         <div class="row">
@@ -45,81 +48,83 @@
                     </div>
                     <h2 class="h4 text-center color-texto-gris-oscuro-global">Regístrate al sistema</h2>
                     <form class="row mt-5 mb-2">
-                        <div class="col-md-6 mb-2">
+                        <div class="col-md-12 mb-2">
                             <label class="form-label text-muted">Razón Social *</label>
-                            <input type="text" class="form-control text-muted" id="exampleInputtext1"
+                            <input type="text" class="form-control text-muted" id="supplierSocialReason"
                                 placeholder="Ingresa el texto aquí">
                         </div>
                         <div class="col-md-6 mb-2">
                             <label class="form-label text-muted">Nombre Comercial *</label>
-                            <input type="text" class="form-control text-muted" id="exampleInputtext1"
+                            <input type="text" class="form-control text-muted" id="supplierBusinessName"
                                 placeholder="Ingresa el texto aquí">
                         </div>
                         <div class="col-md-6 mb-2">
                             <label class="form-label text-muted">Primer Nombre *</label>
-                            <input type="text" class="form-control text-muted" id="exampleInputtext1"
+                            <input type="text" class="form-control text-muted" id="supplierfirstName"
                                 placeholder="Ingresa el texto aquí">
                         </div>
                         <div class="col-md-6 mb-2">
                             <label class="form-label text-muted">Segundo Nombre *</label>
-                            <input type="text" class="form-control text-muted" id="exampleInputtext1"
+                            <input type="text" class="form-control text-muted" id="supplierMiddleName"
                                 placeholder="Ingresa el texto aquí">
                         </div>
                         <div class="col-md-6 mb-2">
                             <label class="form-label text-muted">Primer Apellido *</label>
-                            <input type="text" class="form-control text-muted" id="exampleInputtext1"
+                            <input type="text" class="form-control text-muted" id="supplierThirdName"
                                 placeholder="Ingresa el texto aquí">
                         </div>
                         <div class="col-md-6 mb-2">
                             <label class="form-label text-muted">Segundo Apellido *</label>
-                            <input type="text" class="form-control text-muted" id="exampleInputtext1"
+                            <input type="text" class="form-control text-muted" id="supplierLastName"
                                 placeholder="Ingresa el texto aquí">
                         </div>
                         <div class="col-md-6 mb-2">
                             <label class="form-label text-muted">Apellido de Casada *</label>
-                            <input type="text" class="form-control text-muted" id="exampleInputtext1"
+                            <input type="text" class="form-control text-muted" id="supplierMarriedName"
                                 placeholder="Ingresa el texto aquí">
                         </div>
                         <div class="col-md-6 mb-2">
                             <label class="form-label text-muted">DPI / CUI *</label>
-                            <input type="text" class="form-control text-muted" id="exampleInputtext1"
-                                placeholder="Ingresa el texto aquí">
+                            <input type="number" class="form-control text-muted" id="dpi"
+                                placeholder="Ingresa el texto aquí" pattern="[0-9]{13}"
+                                title="El DPI debe contener exactamente 13 dígitos" min="1"
+                                onchange="validateCui()">
                         </div>
                         <div class="col-md-6 mb-2">
                             <label class="form-label text-muted">NIT *</label>
-                            <input type="text" class="form-control text-muted" id="exampleInputtext1"
+                            <input type="text" class="form-control text-muted" id="nit"
                                 placeholder="Ingresa el texto aquí">
                         </div>
                         <div class="col-md-6 mb-2">
                             <label class="form-label text-muted">Correo Electrónico *</label>
-                            <input type="text" class="form-control text-muted" id="exampleInputtext1"
-                                placeholder="Ingresa tu correo aquí">
+                            <input type="email" class="form-control text-muted" id="email"
+                                placeholder="Ingresa tu correo aquí"
+                                pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}"
+                                onchange="validateEmail()">
                         </div>
                         <div class="col-md-6 mb-2">
                             <label class="form-label text-muted">Dirección *</label>
-                            <input type="email" class="form-control text-muted" id="exampleInputtext1"
+                            <input type="text" class="form-control text-muted" id="address"
                                 placeholder="Ingresa el texto aquí">
                         </div>
                         <div class="col-md-6 mb-2">
                             <label class="form-label text-muted">URL Página Web *</label>
-                            <input type="text" class="form-control text-muted" id="exampleInputtext1"
-                                placeholder="Ingresa el texto aquí">
+                            <input type="text" class="form-control text-muted" id="iconUrl"
+                                placeholder="Ingresa el texto aquí" maxlength="100">
                         </div>
                         <div class="col-md-6 mb-2">
                             <label class="form-label text-muted">Teléfono *</label>
-                            <input type="text" class="form-control text-muted" id="exampleInputtext1"
-                                placeholder="Ingresa el texto aquí">
-                        </div>
-                        <div class="col-md-6 mb-4">
-                            <label class="form-label text-muted">Contraseña *</label>
-                            <input type="password" class="form-control text-muted" id="exampleInputtext1"
-                                placeholder="Ingresa una contraseña segura">
+                            <input type="number" class="form-control text-muted" id="phone"
+                                placeholder="Ingresa el texto aquí" pattern="[0-9]{8}"
+                                title="El teléfono debe contener 8 dígitos" min="1"
+                                onchange="validateCellPhone()">
                         </div>
                         <div class="col-md-12 mb-4">
-                            <a class="btn w-100 fondo-global py-2 text-white">Registrarse</a>
+                            <button type="button" class="btn btn-secondary w-100 fondo-global py-2 text-white"
+                                onclick="createNewSupplier()">Registrarse</button>
                         </div>
                     </form>
-                    <p class="text-muted text-center mb-4">¿Ya tienes cuenta?, inicia sesión <a href="./login.html"
+                    <p class="text-muted text-center mb-4">¿Ya tienes cuenta?, inicia sesión <a href="./login"
                             class="fw-bold text-dark">presionando aquí</a></p>
                 </div>
             </div>
@@ -132,6 +137,9 @@
         crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.7.0.min.js"
         integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+    <!-- Include SweetAlert2 JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.6.0/dist/sweetalert2.min.js"></script>
+    <script src="../../core/suppliers/supplierUseCase.min.js"></script>
 </body>
 
 </html>

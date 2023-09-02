@@ -6,11 +6,7 @@
 
 /*COLOR GLOBAL*/
 .fondo-global {
-    background-color: #6749cb;
-}
-
-.fondo-global:hover {
-    background-color: #6749cb;
+    background-color: #ececec;
 }
 
 .color-texto-global {
@@ -42,7 +38,7 @@ header nav ul li:hover {
 main {
     min-height: 30vh;
     min-width: 100%;
-    background-image: url(../img/mountains-rocks-night-starry-sky-scenery-illustration-macos-6016x6016-3810.jpg);
+    background-image: url(../img/cerveza-.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
