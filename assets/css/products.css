@@ -36,7 +36,7 @@ header nav ul li:hover {
 }
 
 main {
-    min-height: 30vh;
+    min-height: 45vh;
     min-width: 100%;
     background-image: url(../img/cerveza-.webp);
     background-repeat: no-repeat;
